@@ -1,0 +1,17 @@
+{
+  "name": "concepts-collector",
+  "version": "0.1.0",
+  "description": "Research concepts collector MCP server — load collections, extract key concepts, and generate structured knowledge base overviews",
+  "type": "module",
+  "bin": "./server.ts",
+  "scripts": {
+    "start": "node server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^6.0.2"
+  }
+}
