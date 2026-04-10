@@ -3,8 +3,5 @@
   "description": "Research concepts collector MCP server — load collections, extract key concepts, and generate structured knowledge base overviews",
   "version": "0.1.0",
   "author": { "name": "olive" },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/goosefly99/concepts-collector-claude-plugin.git"
-  }
+  "repository": "https://github.com/goosefly99/concepts-collector-claude-plugin.git"
 }
