@@ -51,7 +51,3 @@ Both are ignored by `.gitignore` and should never be committed.
 
 - Node.js (tested with Node 20+)
 - Claude Code with MCP plugin support
-
-## License
-
-MIT — see [LICENSE](./LICENSE).
