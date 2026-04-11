@@ -1,5 +1,5 @@
 {
-  "name": "concepts-collector",
+  "name": "concepts-collector-auto-dev",
   "description": "Research concepts collector MCP server — load collections, extract key concepts, and generate structured knowledge base overviews",
   "version": "0.1.0",
   "author": { "name": "olive" },
