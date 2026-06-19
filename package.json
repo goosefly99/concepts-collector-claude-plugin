@@ -1,6 +1,6 @@
 {
   "name": "concepts-collector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Research concepts collector MCP server — load collections, extract key concepts, and generate structured knowledge base overviews",
   "type": "module",
   "bin": "./server.ts",
