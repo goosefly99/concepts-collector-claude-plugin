@@ -26,15 +26,13 @@ Install via Claude Code's plugin command:
 /plugin install goosefly99/concepts-collector-claude-plugin
 ```
 
-Or clone manually and register the MCP server from the cloned directory:
+Or clone manually — no build step required:
 
 ```bash
 git clone https://github.com/goosefly99/concepts-collector-claude-plugin.git
-cd concepts-collector-claude-plugin
-npm install
 ```
 
-The plugin registers its MCP server via `.mcp.json`, which invokes `start.mjs` using `${CLAUDE_PLUGIN_ROOT}` so it resolves correctly regardless of install location.
+The plugin registers its MCP server via `.mcp.json`, which runs `uv run python -m concepts_collector` using `${CLAUDE_PLUGIN_ROOT}` so it resolves correctly regardless of install location.
 
 ## Configuration
 
@@ -49,5 +47,6 @@ Both are ignored by `.gitignore` and should never be committed.
 
 ## Requirements
 
-- Node.js (tested with Node 20+)
+- Python 3.11+
+- [uv](https://github.com/astral-sh/uv) (dependency manager / runner)
 - Claude Code with MCP plugin support
