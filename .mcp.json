@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "concepts-collector": {
-      "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/start.mjs"]
+      "command": "uv",
+      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "python", "-m", "concepts_collector"]
     }
   }
 }

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "concepts-collector"
+version = "0.2.0"
+description = "Research concepts collector MCP server"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0,<2",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/concepts_collector"]

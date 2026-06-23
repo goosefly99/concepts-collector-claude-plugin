@@ -1,9 +1,9 @@
-import { Server } from '@modelcontextprotocol/sdk/server/index.js'
-import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
+import { Server } from '@modelcontextprotocol/sdk/dist/esm/server/index.js'
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/dist/esm/server/stdio.js'
 import {
   ListToolsRequestSchema,
   CallToolRequestSchema,
-} from '@modelcontextprotocol/sdk/types.js'
+} from '@modelcontextprotocol/sdk/dist/esm/types.js'
 
 import {
   loadCollection,
