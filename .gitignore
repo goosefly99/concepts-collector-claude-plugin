@@ -1,29 +1,16 @@
-# Dependencies
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
 
-# Environment / secrets
-.env
-.env.*
-!.env.example
+# Virtual environments
+.venv/
+venv/
 
-# Logs
-*.log
-npm-debug.log*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Editors
-.vscode/
-.idea/
-
-# Build / cache artifacts
-coverage/
-.nyc_output/
-*.tsbuildinfo
-.cache/
-
-# Runtime data / local config
-overviews/
-config.local.json
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
