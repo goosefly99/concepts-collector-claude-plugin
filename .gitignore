@@ -10,6 +10,9 @@ dist/
 .venv/
 venv/
 
+# Package manager installs
+node_modules/
+
 # Tooling caches
 .pytest_cache/
 .mypy_cache/
